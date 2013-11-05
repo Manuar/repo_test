@@ -1,0 +1,372 @@
+
+
+.selected{
+	cursor:text;
+	color: #bbb;
+}
+.selected:hover{
+	cursor:text;
+	color: #bbb;
+}
+
+.sorter{
+
+	float: right;
+	margin-top: -6px;
+	font-size: 13px;
+}
+
+
+#search-hits{
+	padding: 0px;
+	font-size: 14px;
+	background-color: #f5f5f5;
+}
+
+.search-hits-bottom{
+	padding-bottom: 10px !important;
+
+}
+
+
+.fant{
+	font-weight: bold;
+	float: left;
+	padding-top: 13px;
+	margin-left: 10px;
+	width: 187px;
+}
+.hits{
+	color:#ff8100;
+	font-size: 18px;
+}
+
+.navigation{
+	font-weight: bold;
+	float: left;
+	margin-left: 80px;
+	padding-top: 10px;
+
+}
+.pages{
+	margin-top: 4px;
+	float: left;
+}
+input[type=text].page{
+	padding-right: 5px;
+	border:solid 1px #ccc;
+	width: 50px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.buttons{
+	float: left;
+	margin-left: 10px;
+}
+
+.button-nav{
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: auto;
+	font-weight: bold;
+	color: #000000;
+	border: none;
+	border-radius: 5px;
+	
+	background-color: #e6e6e6;
+ 
+    background: -ms-linear-gradient(top, #ffffff 30%, #e6e6e6 85%);
+    background: -webkit-linear-gradient(top, #ffffff 30%, #e6e6e6 85%);
+    background: -moz-linear-gradient(top, #ffffff 30%, #e6e6e6 85%);
+    background: linear-gradient(top, #ffffff 30%, #e6e6e6 85%);
+    -pie-background: linear-gradient(to top, #ffffff 30%, #e6e6e6 85%); 
+	background-repeat: no-repeat;
+	cursor: pointer;
+	
+/* 	behavior: url(/sitemedia/orange/css/PIE/PIE.htc); */
+ 	
+}
+.button-nav:hover{
+
+	background-position: 0 -30px;
+  	-webkit-transition: background-position 0.15s linear;
+       -moz-transition: background-position 0.15s linear;
+        -ms-transition: background-position 0.15s linear;
+            transition: background-position 0.15s linear;
+
+	background-color: #e6e6e6;
+	
+}
+
+.button-prev{
+	border:solid 1px #ccc;
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	padding-left: 5px;
+	padding-top: 6px;
+	border-radius: 0px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+	
+}
+.button-next{
+	border:solid 1px #ccc;
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	padding-left: 7px;
+	padding-top: 6px;
+
+	border-radius: 0px;
+	border-top-right-radius:3px;
+	border-bottom-right-radius:3px;
+	
+}
+.button-prev:active{
+	height: 31px;	
+}
+.button-next:active{
+	height: 31px;	
+}
+.page-state-0{
+	background-color: #ccc;
+	opacity: 0.3;
+	cursor: text;
+}
+.page-state-0:hover{
+	background-color: #ccc;
+	opacity: 0.3;
+	cursor: text;
+	background-position: inherit!important;
+}
+
+.map-icon{
+	cursor: pointer;
+}
+
+.button-pa{
+	border:solid 1px #ccc;
+	display: block;
+	float: left;
+	width: 55px;
+	height: 30px;
+	padding-left: 15px;
+	padding-top: 6px;
+	border-radius: 0px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+.button-av{
+	border:solid 1px #ccc;
+	display: block;
+	float: left;
+	width: 58px;
+	height: 30px;
+	padding-left: 6px;
+	padding-top: 6px;
+	border-radius: 0px;
+	border-top-right-radius:3px;
+	border-bottom-right-radius:3px;
+	
+}
+.button-selected{
+	background-color: #ccc;
+	opacity: 0.3;
+	cursor: text;
+}
+.ie9 .button-selected{
+	background-color: #ccc;
+	opacity: 0.3;
+	cursor: text;
+}
+.button-selected:hover{
+	background-color: #ccc;
+	opacity: 0.3;
+	cursor: text;
+	background-position: 0 0px;
+
+}
+#map-link{
+	float: right;
+	padding: 10px;
+
+}
+#map-link .map-icon{
+	float: left;
+	margin-top: -2px;
+
+}
+#map-link .text{
+	margin-top: 7px;
+	margin-left: 5px;
+	float: left;
+
+}
+
+
+#map{
+	text-align:center;
+	
+}
+
+.balloon{
+	padding: 10px;
+	background-color:#fff;
+	width:360px;
+	min-height: 160px;
+}
+.balloon-img{
+	float: left;
+	width: 140px;
+	height:140px;
+	margin-right: 15px;
+}
+.balloon-img img{
+	width: 100%;
+	height: 100%;
+}
+.balloon-text{
+	float: left;
+	width: 180px;
+	text-align: left;
+}
+
+
+a.marker{
+	float: left;
+	margin-right: 8px;
+}
+
+
+
+.search-results{
+	padding: 10px;
+	background-color: #fff;
+}
+
+
+.search-result{
+	display: table;
+	min-height: 160px;
+	padding: 10px;
+	padding-bottom: 0px;
+	
+	border-top:#cccccc dashed thin;
+
+}
+.search-result:first-child{
+	
+	border-top:none;
+
+}
+
+.search-result > div{
+	margin-left: 5px;
+	float: left;
+}
+.search-result > div:first-child{
+	margin-left: 0px;
+
+}
+.search-result .picture{
+	width: 180px;
+
+}
+.search-result .picture img.hotel{
+	width: 180px;
+	height: 135px;
+}
+.search-result .picture .marker{
+	position:absolute;
+	padding:4px 8px 0 8px;
+	background:url(/xo/img/map-bg.png);
+	border-right:solid #fff 1px;
+	border-bottom:solid #fff 1px;
+	
+}
+
+.search-result .destination{
+	width: 280px;
+	margin-left: 15px;
+}
+
+.search-result .destination .dest-block{
+	height: 50px;
+}
+.search-result .destination .dest-name{
+	font-weight: bold;
+	font-size: 14px;
+
+}
+
+.search-result .destination p.hotell{
+	font-size: 10px;
+}
+.search-result .destination .hotel-name{
+	width: 300px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+
+
+.search-result .logo{
+	margin-left: -10px;
+	width: 60px;
+}
+
+.search-result .fly{
+	margin-left: 15px;
+	width: 105px;
+	
+}
+.search-result .fly .netter{
+	color:#fab000;
+	font-weight: bold;
+}
+.search-result .fly .avreise{
+	margin-top: 15px;
+}
+
+.search-result .order{
+	float: right;
+	text-align: right;
+	margin-left: 15px;
+}
+.search-result .order .price{
+	font-size: 20px;
+	font-weight: bold;
+}
+.search-result .order .button{
+	width: 60px;
+	height: 30px;
+	padding-top: 6px;
+	padding-right:0px;
+	font-size: 15px;
+}
+.search-result .order .button:hover{
+	color: #ffffff;
+}
+
+
+#section-bottom{
+	margin-top: 20px;
+}
+.not-found{
+	font-size: 14px;
+	padding: 10px;
+}
+.not-found h3{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.not-found ul li{
+	margin-left: 15px;
+	margin-top: 5px;
+	list-style: circle;
+}
